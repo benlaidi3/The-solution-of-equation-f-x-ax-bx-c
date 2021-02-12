@@ -1,4 +1,4 @@
-def is_integer(n):
+def is_integer(n): #hada 4ir la kan f input kan String machi float mtl3ch error w iw9af proggram 
     try:
         float(n)
     except ValueError:
@@ -15,7 +15,7 @@ while (1==1) :
     	print ('please chose number not string ')
     else :
 	    if a==b==0 :
-	        print ("error ")
+	        print ("error ") 
 	    elif a==0 : 
 	        X=float(-c/b)
 	        print ("the solution is " +str(X))
